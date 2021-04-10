@@ -7,7 +7,7 @@ $(".saveBtn").on("click", function () {
     var timeBlockId = $(this).parent().attr("id");
     var textArea = $('#' + timeBlockId).find('textarea');
     var description = textArea.val();
-    localStorage.setItem(currentHour, description);
+    localStorage.setItem(timeBlockId, description);
 })
 
 $.each( timeBlocks, function( key, timeBlock ) {
