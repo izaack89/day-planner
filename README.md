@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# 📅 [Work Day Scheduler](https://izaack89.github.io/day-planner/)
 
-You can use the [editor on GitHub](https://github.com/izaack89/day-planner/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This Day Planner will help you to organize your daily activities and check with a friendly front-end that will let you know if the hour is on the past, the current hour and on the future
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Main View](./assets/readmeFiles/dayPlanner-mainView.png)
+![View](./assets/readmeFiles/dayPlanner-view2.png)
+![Information Storage](./assets/readmeFiles/dayPlanner-view3.png)
 
-### Markdown
+## Work Day Scheduler Elements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Use Localstorage to save the information of the activities of the hour of the day
 
-```markdown
-Syntax highlighted code block
+2. Use momentJs to get the time and do formats
 
-# Header 1
-## Header 2
-### Header 3
+3. Use Jquery to manipulate elemets
 
-- Bulleted
-- List
+## [Work Day Scheduler GitHub Code](https://github.com/izaack89/code-base)
 
-1. Numbered
-2. List
+## Work Day Scheduler References
 
-**Bold** and _Italic_ and `Code` text
+- [parent](https://api.jquery.com/parent/) - parent Function
+- [find](https://api.jquery.com/find/) - find Function
+- [addClass](https://api.jquery.com/addClass/) - add Function
+- [each](https://api.jquery.com/jquery.each/) - each Iteration
+- [readonly](https://stackoverflow.com/questions/3297923/make-textarea-readonly-with-jquery) - readonly element jquery
+- [Format MomentJs](https://momentjs.com/docs/#/displaying/format/) - time Format
 
-[Link](url) and ![Image](src)
-```
+## Author
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/izaack89/day-planner/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- **German Ramirez** - [GitHub](https://github.com/izaack89/)
