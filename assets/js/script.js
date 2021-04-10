@@ -4,6 +4,12 @@ var currentDate = momentInstance.format('dddd, MMM Do YYYY');
 var currentHour  = momentInstance.format('H');
 console.log(currentDate, currentHour);
 
+$(".saveBtn").on("click", function () {
+    var timeBlockId = $(this).parent().attr("id");
+    var textArea = $('#' + timeBlockId).find('textarea');
+    var description = textArea.val();
+    localStorage.setItem(currentHour, description);
+})
 
 $.each( timeBlocks, function( key, timeBlock ) {
     var hourCheck = parseInt(timeBlock.id.replace('hour', ''));
