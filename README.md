@@ -8,11 +8,11 @@ This Day Planner will help you to organize your daily activities and check with 
 
 ## Work Day Scheduler Elements
 
-1. Use Localstorage to save the information of the activities of the hour of the day
+1. Localstorage to save the information of the activities of the hour of the day
 
-2. Use momentJs to get the time and do formats
+2. momentJs to get the time and do formats
 
-3. Use Jquery to manipulate elemets
+3. Jquery to manipulate elemets
 
 ## [Work Day Scheduler GitHub Code](https://github.com/izaack89/code-base)
 
