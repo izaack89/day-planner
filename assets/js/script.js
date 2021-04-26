@@ -9,7 +9,6 @@ var currentDate = momentInstance.format('dddd, MMM Do YYYY');
 var currentHour = momentInstance.format('H');
 // Set a new variable that I will use in order to have multiple information storage for day
 var saveFormatDate = momentInstance.format('YYYYMMDD');
-
 // Set the current date format on the HTML
 currentDay.html(currentDate);
 
@@ -25,11 +24,11 @@ $(".saveBtn").on("click", function () {
     //Save the information on the localStorage what I do is to create an unique ID so if you are on another day you can set new items and if you can check previous days the information can stay there
     localStorage.setItem(saveFormatDate+timeBlockId, description);
 })
-//With this I do an iteracion to check the elements I can 
+//With this I do an iteracion to check the elements I have
 $.each(timeBlocks, function (key, timeBlock) {
     // Here I check what hour and I will use that to compare with the current hour
     var hourCheck = parseInt(timeBlock.id.replace('hour', ''));
-    // Get the id of the time block
+    // Get the id of the time block elemnt
     var timeBlockId = timeBlock.id;
     // Get the element of textarea so I can manipulate that later
     var textArea = $('#' + timeBlockId).find('textarea');
